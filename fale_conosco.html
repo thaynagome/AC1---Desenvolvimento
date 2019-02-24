@@ -1,17 +1,19 @@
+<!--Robson Oliveira da Silva RA: 1801927-->
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fale Conosco - Art no Papel</title>
+    <title>Fale Conosco - Art no Papel</title><!--Titulo que apresenta na aba do browser-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="shortcut icon" href="logoo.png" type="image/x-png"/><!--Icone do browser-->
     <script src="main.js"></script>
 </head>
 <body>
     </br><h2> FALE CONOSCO </h2>
     <h5> *campos obrigatórios</h5>
-
+    <!--Inicio do formulário-->
     <form action="final_faleconosco.html" method="POST">
         <label>Nome:*</label><br/>
         <input type="text" maxlength="100" size="40" placeholder="Digite seu nome" required/><br/><br/>
@@ -23,7 +25,7 @@
         <input type="text" maxlength="14" size="20" placeholder="Digite seu CPF/CNPJ" required/><br/><br/>
         <label>CEP:*</label><br/>
         <input type="text" maxlength="9" size="20" placeholder="Digite seu CEP" required/><br/><br/>
-        <label>Logradouro:*</label><br/>
+        <label>Logradouro:*</label><br/> <!--Lista de logradouro-->
         <select name="Logradouro">
             <option>Selecione:</option><br/>
             <option value="Rua">Rua</option><br/>
@@ -45,7 +47,7 @@
         <label>Cidade:*</label></br>
         <input type="text" maxlength="50" size="30" placeholder="Digite sua cidade" required/>
         <label>UF:*</label>
-        <select name="UF">
+        <select name="UF"> <!--Lista de UFs-->
             <option>Selecione:</option><br/>
             <option value="AC">AC</option><br/>
             <option value="AL">AL</option><br/>
@@ -76,9 +78,7 @@
         </select><br/><br/>
         <label>Digite uma mensagem:*</label><br/>
         <textarea maxlength="4000" size="4000" placeholder="Digite sua mensagem..." required></textarea><br/><br/>
-        
         <input type="submit" value="Enviar"/>
-        
     </form>
 </body>
 </html>
