@@ -1,14 +1,18 @@
 body{
     background: #ffdfec
-}
+} /* Mudar cor do fundo da página */
 
 p.centro{
     text-align: center;
     font-family: 'Arial Black', courier, monospace;
     color: #DC143C;
-}
+} /* Tipo de texto, cor fonte, formatação */
 
 a:hover{
     font-family: 'Arial Black';
     color: #DC143C;
-}
+} /* Da cor ao link quando mouse passa por cima */
+
+h4{
+    font-family: 'Lucida Console', arial;
+} /* Padrão de fonte */
