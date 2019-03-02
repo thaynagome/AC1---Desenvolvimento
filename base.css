@@ -4,5 +4,6 @@ body{
 
 p.centro{
     text-align: center;
-    font-family: 'Arial Black', monospace;
+    font-family: 'Arial Black', courier, monospace;
+    color: pink;
 }
