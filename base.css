@@ -8,10 +8,18 @@ p.centro{
     color: #DC143C;
 } /* Tipo de texto, cor fonte, formatação */
 
+a{
+    color: #FF69B4;
+} /* Cor do link */
+
 a:hover{
     font-family: 'Arial Black';
-    color: #DC143C;
+    color:#FF1493;
 } /* Da cor ao link quando mouse passa por cima */
+
+a:visited{
+    color: #C71585;
+} /* Cor link visitado */
 
 h4{
     font-family: 'Franklin Gothic Medium', arial;
