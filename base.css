@@ -7,3 +7,8 @@ p.centro{
     font-family: 'Arial Black', courier, monospace;
     color: #DC143C;
 }
+
+a:hover{
+    font-family: 'Arial Black';
+    color: #DC143C;
+}
