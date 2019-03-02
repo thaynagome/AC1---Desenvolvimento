@@ -1,6 +1,6 @@
 body{
     background: #ffdfec;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
@@ -32,5 +32,5 @@ h4{
 .cor-1{
     background-color: #ff0060;
     height: 60px;
-    
+
 }
