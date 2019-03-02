@@ -28,3 +28,9 @@ a:visited{
 h4{
     font-family: 'Franklin Gothic Medium', arial;
 } /* Padrão de fonte */
+
+.cor-1{
+    background-color: #ff0060;
+    height: 60px;
+    
+}
