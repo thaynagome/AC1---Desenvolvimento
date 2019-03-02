@@ -4,7 +4,7 @@ body{
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-} /* Mudar cor do fundo da página */
+} /* Mudar cor do fundo da página e coloca margem no corpo */
 
 p.centro{
     text-align: center;
