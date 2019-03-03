@@ -82,16 +82,16 @@ main{
     color: #8b8b8b; /* Cor links */   
     display: inline-block; /* Alinha as palavras da lista */
     margin-left: 30px; /* Espaçameto dos links */
-    height: 34px;
+    height: 34px; /* distancia do sublinhado */
 }
 
 .menu ul li:hover{
     border-bottom: 3px solid #ff0066;
-}
+} /* grossura sublinhado */
 
 .menu ul li a:hover{
     color: #ff0066;
-}
+} /* Cor mouse sobre menu */
 
 .menu ul li a{
     color: #8b8b8b; /* Cor links */
