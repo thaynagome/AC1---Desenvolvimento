@@ -1,6 +1,8 @@
 body{
     background: #ffdfec;
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 } /* Mudar cor do fundo da página e coloca margem no corpo */
 
 p.centro{
@@ -9,18 +11,18 @@ p.centro{
     color: #f64a8f;
 } /* Tipo de texto, cor fonte, formatação */
 
-a{
+ /* a{
     color: #FF69B4;
 } /* Cor do link */
 
-a:hover{
+/* a:hover{
     font-family: 'Arial Black';
     color:#FF1493;
 } /* Da cor ao link quando mouse passa por cima */
 
-a:visited{
+/* a:visited{
     color: #C71585;
-} /* Cor link visitado */
+} /* Cor link visitado */ 
 
 h4{
     font-family: 'Franklin Gothic Medium', arial;
@@ -28,7 +30,7 @@ h4{
 
 .menu-principal{
     background-color: #ff0066;
-    height: 60px;
+    height: 67px;
     width: 100%;
 }
 
@@ -45,13 +47,70 @@ main{
 
 .logo{
     padding: 15px;
-    width:80%;
+    width:60%;
     float:left;
 }
 
-.redes-sociais{
+.redes-sociais ul li{
     display: inline-block;
+    margin-left: 7px;
     float: left;
-    width:12%;
-    padding:15px;
+    list-style: none;
 }
+
+.redes-sociais{
+    width: 35%;
+    float: right;
+}
+
+.header-2{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto; 
+
+} /* Fundo cabeçalho */
+
+.menu-urls{
+    border-bottom:3px solid #efefef; /* Borda cabeçalho */
+    height: 50px; /* quadrado cabeçalho */
+} /* Bordar do cabeçalho */
+
+.menu ul li{
+    display: inline-block; /* Alinha as palavras da lista */
+    margin-left: 20px; /* Espaçameto dos links */
+}
+
+.menu ul li a{
+    color: #8b8b8b; /* Cor links */
+    text-decoration: none; /* Tira aparencia de link */
+    font-size: 17px; /* Tamanho da fonte */
+    text-transform: uppercase; /* Todas letras maiusculas */
+} /* Formatar os links */
+
+.menu{
+    width: 50%; /* Ocupação palavras menu */
+    float: left; /* posição palavras */
+}
+
+.busca{
+    width: 30%; /* Ocupação busca */
+    float: right; /* posição busca */
+}
+
+.busca input{
+    height: 20px; /* Altura barra pesquisa */
+    width: 190px; /* Largura pesquisa */
+    margin-top: 2px; /* Margem superior busca */
+    padding: 4px; /* margem dentro */
+    background-image: url('busca1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 2px solid #d6d6d6;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+} /* Coluna 100% */
