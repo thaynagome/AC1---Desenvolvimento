@@ -1,11 +1,12 @@
 body{
     background: #ffdfec;
+    margin: 0 auto;
 } /* Mudar cor do fundo da página e coloca margem no corpo */
 
 p.centro{
     text-align: center;
     font-family: 'Arial Black', courier, monospace;
-    color: #DC143C;
+    color: #f64a8f;
 } /* Tipo de texto, cor fonte, formatação */
 
 a{
@@ -25,13 +26,32 @@ h4{
     font-family: 'Franklin Gothic Medium', arial;
 } /* Padrão de fonte */
 
-.cor-1{
-    background-color: #ffbfd7;
+.menu-principal{
+    background-color: #ff0066;
     height: 60px;
-
+    width: 100%;
 }
 
 h1,h2,h3,h4,ul{
     margin-right: 150px;
     margin-left: 80px;
+}
+
+main{
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    padding: 15px;
+    width:80%;
+    float:left;
+}
+
+.redes-sociais{
+    display: inline-block;
+    float: left;
+    width:12%;
+    padding:15px;
 }
