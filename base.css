@@ -1,3 +1,5 @@
+/* Thayna Gomes da Luz Santos 1802222*/
+
 body{
     background: #ffdfec;
     margin: 0 auto;
@@ -77,8 +79,18 @@ main{
 } /* Bordar do cabeçalho */
 
 .menu ul li{
+    color: #8b8b8b; /* Cor links */   
     display: inline-block; /* Alinha as palavras da lista */
     margin-left: 30px; /* Espaçameto dos links */
+    height: 34px;
+}
+
+.menu ul li:hover{
+    border-bottom: 3px solid #ff0066;
+}
+
+.menu ul li a:hover{
+    color: #ff0066;
 }
 
 .menu ul li a{
