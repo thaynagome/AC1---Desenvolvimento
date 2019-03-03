@@ -78,7 +78,7 @@ main{
 
 .menu ul li{
     display: inline-block; /* Alinha as palavras da lista */
-    margin-left: 20px; /* Espaçameto dos links */
+    margin-left: 30px; /* Espaçameto dos links */
 }
 
 .menu ul li a{
@@ -89,24 +89,9 @@ main{
 } /* Formatar os links */
 
 .menu{
-    width: 50%; /* Ocupação palavras menu */
+    text-align: center;
+    width: 100%; /* Ocupação palavras menu */
     float: left; /* posição palavras */
-}
-
-.busca{
-    width: 30%; /* Ocupação busca */
-    float: right; /* posição busca */
-}
-
-.busca input{
-    height: 20px; /* Altura barra pesquisa */
-    width: 190px; /* Largura pesquisa */
-    margin-top: 2px; /* Margem superior busca */
-    padding: 4px; /* margem dentro */
-    background-image: url('busca1.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    border: 2px solid #d6d6d6;
 }
 
 .col-100{
