@@ -6,15 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Fale Conosco - Art no Papel</title><!--Titulo que apresenta na aba do browser-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="base.css"/>
     <link rel="shortcut icon" href="logoo.png" type="image/x-png"/><!--Icone do browser-->
     <script src="main.js"></script>
 </head>
 <body>
-    </br><h2> FALE CONOSCO </h2>
-    <h5> *campos obrigatórios</h5>
+        <header class="menu-principal">
+            <main>
+                <div class="cor-1"> <!--Cor da barra-->
+                    <div class="logo">
+                        <img src="logoext.png"/> <!--Logo da loja no cabeçalho-->
+                    </div>
+                    <div class="redes-sociais"> <!--Link com imagem-->
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/artnopapel.com.br/?ref=br_rs">
+                                    <img src="face.png"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fale_conosco.html">
+                                    <img src="email.png"/>
+                                </a>
+                            </li>  
+                        </ul>            
+                    </div>
+                </div>
+            </main>
+        </header>
+            <main class="col-100 menu-urls">
+                <div class="header-2">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="cadastro.html">Cadastro</a></li>
+                            <li><a href="produto.html">Trabalhos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </main></br>
+    </br><h2 class=".h2-fl">FALE CONOSCO</h2>
+    <h5 class=".h4">*campos obrigatórios</h5>
     <!--Inicio do formulário-->
-    <form action="final_faleconosco.html" method="POST">
+    <form class="form" class=".placeholder" action="final_faleconosco.html" method="POST">
         <label>Nome:*</label><br/>
         <input type="text" maxlength="100" size="40" placeholder="Digite seu nome" required/><br/><br/>
         <label>E-mail:*</label><br/>
@@ -77,8 +111,8 @@
             <option value="SE">SE</option><br/>
         </select><br/><br/>
         <label>Digite uma mensagem:*</label><br/>
-        <textarea maxlength="4000" size="4000" placeholder="Digite sua mensagem..." required></textarea><br/><br/>
-        <input type="submit" value="Enviar"/>
+        <textarea class="textarea" maxlength="4000" size="4000" placeholder="Digite sua mensagem..." required></textarea><br/><br/>
+        <input class="submit" type="submit" value="Enviar"/>
     </form>
 </body>
 </html>
