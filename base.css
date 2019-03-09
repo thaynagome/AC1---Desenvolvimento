@@ -1,4 +1,5 @@
 /* Thayna Gomes da Luz Santos 1802222*/
+/* Robson Oliveira da Silva 1801927*/
 
 body{
     background: #ffdfec;
@@ -151,4 +152,14 @@ main{
     border-radius: 4px;
     cursor: pointer;
     float: left;
+}
+
+body.fn_flc{
+    text-align: center;   
+}
+
+.inicio{
+    color: white;
+    background-color: #ff0066;
+    font-size: 20px;
 }
